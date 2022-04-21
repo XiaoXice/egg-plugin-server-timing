@@ -1,0 +1,17 @@
+node_modules
+typings
+app/**/*.js
+app/**/*.d.ts
+config/**/*.js
+config/**/*.d.ts
+test/**/*.js
+test/**/*.d.ts
+app.js
+app.d.ts
+coverage
+
+.vscode
+
+yarn-*.log
+
+package-lock.json

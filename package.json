@@ -1,0 +1,56 @@
+{
+  "name": "egg-plugin-server-timing",
+  "version": "0.0.1",
+  "description": "egg plugin to add 'Server-Timing' header",
+  "eggPlugin": {
+    "name": "serverTiming"
+  },
+  "scripts": {
+    "tsc": "npm run clean && ets -o && tsc -p tsconfig.json",
+    "test": "npm run tsc && egg-bin test",
+    "cov": "npm run tsc && egg-bin cov",
+    "ci": "npm run cov",
+    "clean": "del './{app,config,test,typings}/**/*.{js,d.ts}'",
+    "prepublish": "npm run tsc"
+  },
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoXice/egg-plugin-server-timing.git"
+  },
+  "author": "XiaoXice <liangxiao0991@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XiaoXice/egg-plugin-server-timing/issues"
+  },
+  "homepage": "https://github.com/XiaoXice/egg-plugin-server-timing#readme",
+  "devDependencies": {
+    "@types/mocha": "^9.1.0",
+    "del-cli": "^4.0.1",
+    "egg": "^2.35.0",
+    "egg-bin": "^4.19.0",
+    "egg-mock": "^4.2.0",
+    "tslint": "^5.18.0",
+    "tslint-config-egg": "^1.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "app.js",
+    "app.ts",
+    "app.d.ts",
+    "app",
+    "config",
+    "typings",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "egg",
+    "egg-plugin",
+    "eggPlugin",
+    "egg-plugin-server-timing",
+    "server-timing",
+    "serverTiming"
+  ]
+}
