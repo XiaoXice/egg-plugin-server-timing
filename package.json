@@ -1,6 +1,6 @@
 {
   "name": "egg-plugin-server-timing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "egg plugin to add 'Server-Timing' header",
   "eggPlugin": {
     "name": "serverTiming"
