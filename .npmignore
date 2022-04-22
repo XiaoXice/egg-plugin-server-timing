@@ -1,0 +1,6 @@
+*.ts
+!*.d.ts
+coverage
+.vscode
+test
+yarn-*.log

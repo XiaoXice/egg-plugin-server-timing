@@ -36,15 +36,6 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "files": [
-    "app.js",
-    "app.ts",
-    "app.d.ts",
-    "app",
-    "config",
-    "typings",
-    "index.d.ts"
-  ],
   "keywords": [
     "egg",
     "egg-plugin",
